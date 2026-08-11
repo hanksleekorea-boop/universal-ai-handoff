@@ -1,62 +1,46 @@
 {
-  "schema": "ai-handoff-latest/v1",
-  "project_id": "universal-ai-handoff-protocol",
-  "project_name": "Universal AI PC Lossless Handoff Protocol",
-  "visibility": "public",
-  "updated_at_utc": "2026-08-11T10:31:51Z",
-  "run_id": "RUN-20260811T102329Z-integrated",
-  "status": "ready",
-  "source": {
-    "repository": "https://github.com/hanksleekorea-boop/universal-ai-handoff",
-    "branch": "ai-handoff",
-    "commit": "ecf8c6e029cb5a748ac58d8c10ce2280420f09de",
-    "tree": "5b86bf2d05bf5bcf60d211f4a12292aa167a39dc",
-    "exact_local_state_included": true
-  },
+  "schema": 47,
+  "project_id": "UNIVERSAL-AI-PC-HANDOFF-PROMPT",
+  "run_id": "RUN-20260811T122315Z-v047",
+  "state_digest": "81482E6CB522E366DBD5E7BEDA9902948F5610EF21520D7761FD2CAFCAB89F7A",
   "snapshot": {
-    "commit": "ecf8c6e029cb5a748ac58d8c10ce2280420f09de",
-    "manifest_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/ecf8c6e029cb5a748ac58d8c10ce2280420f09de/snapshots/RUN-20260811T102329Z-integrated/MANIFEST.json",
-    "next_ai_prompt_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/ecf8c6e029cb5a748ac58d8c10ce2280420f09de/snapshots/RUN-20260811T102329Z-integrated/%EB%B2%94%EC%9A%A9_AI_PC_%EB%AC%B4%EC%86%90%EC%8B%A4_%EC%A7%80%EC%86%8D%EA%B0%9C%EB%B0%9C_%EC%9D%B8%EA%B3%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_v4.6.txt",
-    "release_url": null
+    "commit": "dcfc17928cec93c0487cb6c7fe0526101409f41a",
+    "tree": "33d551300452d0d981c987dd5f9e2b6a0c33011a",
+    "manifest_path": "snapshots/RUN-20260811T122315Z-v047/MANIFEST.json",
+    "manifest_sha256": "997E3FE6C29E1F5D31B2E2382B4B7C2F7F35CCC368CF10F651B685B15AD366D1",
+    "txt_path": "snapshots/RUN-20260811T122315Z-v047/NEXT-AI.txt",
+    "txt_sha256": "B576910210438062C3627FEC73A20BAFB31224ED50FC9FB3506C0EF2A991934A",
+    "artifact_path": "snapshots/RUN-20260811T122315Z-v047/UNIVERSAL-AI-HANDOFF-RUN-20260811T122315Z-v047.zip",
+    "artifact_sha256": "948F1EEAB7E8C0BF485405F9FDB99664B22E0A52F7DDC57F92A5E4644A898CD5",
+    "now_sha256": "01A20BED17E73354155EAF6F63F7489AF6B0EA9030F446D7A0970F87C997A6FF"
   },
-  "integrity": {
-    "manifest_sha256": "B60383F8081E2E2EB68EA8E6D734B1EF93326BE072D69CECF473A43D0A568AF1",
-    "zip_sha256": "AE679D3952FA183309620710E4A5B7EF0B10B434605C10E8A2BBD6C99EB744B2",
-    "next_ai_prompt_sha256": "D40607433D15DAE3EE74215678732F2F73F272C9502AD27A69A2CF88F60F9FC0",
-    "state_digest": "0F97E2055ECF4B168B762D8F92DD75783E485A64FAAB4313F336F7901276460D"
+  "backup": {
+    "due": true,
+    "status": "unknown",
+    "copies": {
+      "drive-a": {
+        "status": "prepared",
+        "run": "RUN-20260811T122315Z-v047",
+        "state": "81482E6CB522E366DBD5E7BEDA9902948F5610EF21520D7761FD2CAFCAB89F7A",
+        "zip": "948F1EEAB7E8C0BF485405F9FDB99664B22E0A52F7DDC57F92A5E4644A898CD5",
+        "candidate": "0E971A639FEC6D5A9DB17ECAD368BB260F5F845DB1FEB30F980C5B106F5B65A9"
+      },
+      "drive-b": {
+        "status": "prepared",
+        "run": "RUN-20260811T122315Z-v047",
+        "state": "81482E6CB522E366DBD5E7BEDA9902948F5610EF21520D7761FD2CAFCAB89F7A",
+        "zip": "948F1EEAB7E8C0BF485405F9FDB99664B22E0A52F7DDC57F92A5E4644A898CD5",
+        "candidate": "0E971A639FEC6D5A9DB17ECAD368BB260F5F845DB1FEB30F980C5B106F5B65A9"
+      }
+    },
+    "common_zip_sha256": null,
+    "pointer_core_commitment_sha256": "860B9AF2F75D14AB562FAD4863B351176F098ABFA29DA83A6621EE8B898DB3D3",
+    "last_common_state_digest": "0F97E2055ECF4B168B762D8F92DD75783E485A64FAAB4313F336F7901276460D",
+    "verified_at": null
   },
-  "verification": {
-    "single_integrated_prompt": true,
-    "static_checks": "25/25",
-    "scenario_simulations": "24/24",
-    "exhaustive_safety_combinations": "4096/4096",
-    "completion_gates": "G01-G39",
-    "steady_hot_read_proxy_chars": 1843,
-    "steady_hot_read_proxy_bytes": 2793
-  },
-  "recovery": {
-    "github_primary": true,
-    "google_drive": {
-      "copies_required": 2,
-      "copies_verified": 2,
-      "dual_drive_ready": true,
-      "account_labels": [
-        "drive-a",
-        "drive-b"
-      ],
-      "independent_owners_verified": true,
-      "folder_name": "UNIVERSAL_AI_HANDOFF_RECOVERY",
-      "zip_name": "universal-ai-handoff-drive-backup-RUN-20260811T102329Z-integrated.zip",
-      "zip_bytes": 31795,
-      "zip_sha256": "AE679D3952FA183309620710E4A5B7EF0B10B434605C10E8A2BBD6C99EB744B2",
-      "verified_at_utc": "2026-08-11T10:31:51Z",
-      "locators_public": false,
-      "account_identity_included": false
-    }
-  },
-  "next_first_action": "Decode this Contents API pointer, verify immutable hashes, read the v4.6 integrated prompt once, then apply section 5; steady runs use only HANDOFF/NOW/LOCK.",
-  "requirements": {
-    "github_auth_required": false,
-    "user_action_required": false
+  "trust": {
+    "repository_id": "1330725387",
+    "signing": "optional",
+    "attestation": null
   }
 }
