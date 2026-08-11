@@ -1,0 +1,45 @@
+{
+  "schema": "ai-handoff-snapshot/v1",
+  "project_id": "universal-ai-handoff-protocol",
+  "project_name": "Universal AI PC Lossless Handoff Protocol",
+  "run_id": "RUN-20260811T094505Z-api",
+  "created_at_utc": "2026-08-11T09:45:05Z",
+  "visibility": "public",
+  "artifacts": [
+    {
+      "path": "범용_AI_PC_무손실_지속개발_인계_프롬프트_v4.4.txt",
+      "role": "authoritative-protocol-and-next-ai-prompt",
+      "bytes": 67069,
+      "sha256": "546CD06FAB75C1F631AB55637B9766198DF32337E78E296F436F52ADC99EB622"
+    },
+    {
+      "path": "README-FIRST.md",
+      "role": "human-and-ai-entrypoint",
+      "bytes": 641,
+      "sha256": "6F6682F01568CC57FDFF223C270B2AE3A0EF15B7592A2650D39118D30AA3AC02"
+    },
+    {
+      "path": ".gitattributes",
+      "role": "cross-platform-checkout-byte-policy",
+      "bytes": 147,
+      "sha256": "2AEC367A8756344FE1EF13C990D453036D9A709691A142777FE02ADEB8978636"
+    }
+  ],
+  "verification": {
+    "major_sections": "0-27 sequential",
+    "completion_gates": "G01-G37 sequential",
+    "json_examples_parse": true,
+    "markdown_fences_balanced": true,
+    "latest_discovery": "GitHub Contents API file/base64 wrapper with blob SHA",
+    "raw_branch_url": "non-authoritative because CDN propagation may lag",
+    "git_blob_raw_checkout_eol": "must match in fresh clone, including .gitattributes",
+    "secret_or_personal_data_scan": "required-before-publication"
+  },
+  "next_first_action": "Decode the Contents API pointer, verify immutable hashes and EOL policy, then apply the v4.4 bootstrap protocol.",
+  "notes": [
+    "This snapshot commit is immutable once published.",
+    "The mutable latest discovery URL is the public GitHub Contents API endpoint on ai-handoff.",
+    "Commit-pinned raw URLs remain authoritative for immutable artifact bytes.",
+    "The .gitattributes file explicitly fixes its own EOL to prevent Windows core.autocrlf byte drift."
+  ]
+}
