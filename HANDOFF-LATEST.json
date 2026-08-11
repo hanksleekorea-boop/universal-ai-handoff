@@ -31,36 +31,3 @@
     "user_action_required": false
   }
 }
-{
-  "schema": "ai-handoff-latest/v1",
-  "project_id": "universal-ai-handoff-protocol",
-  "project_name": "Universal AI PC Lossless Handoff Protocol",
-  "visibility": "public",
-  "updated_at_utc": "2026-08-11T09:26:24Z",
-  "run_id": "RUN-20260811T092241Z-github",
-  "status": "ready",
-  "source": {
-    "repository": "https://github.com/hanksleekorea-boop/universal-ai-handoff",
-    "branch": "ai-handoff",
-    "commit": "402310e990901f5e3838d03eba7ab0210c1adf96",
-    "tree": "ea9c86bdb8b620c585ecbd7e0144892fab67e188",
-    "exact_local_state_included": true
-  },
-  "snapshot": {
-    "commit": "402310e990901f5e3838d03eba7ab0210c1adf96",
-    "manifest_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/402310e990901f5e3838d03eba7ab0210c1adf96/snapshots/RUN-20260811T092241Z-github/MANIFEST.json",
-    "next_ai_prompt_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/402310e990901f5e3838d03eba7ab0210c1adf96/snapshots/RUN-20260811T092241Z-github/%EB%B2%94%EC%9A%A9_AI_PC_%EB%AC%B4%EC%86%90%EC%8B%A4_%EC%A7%80%EC%86%8D%EA%B0%9C%EB%B0%9C_%EC%9D%B8%EA%B3%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_v4.2.txt",
-    "release_url": null
-  },
-  "integrity": {
-    "manifest_sha256": "502A1BBCC27255A953E46828AD75894488C9E4215A9E952CF1DF051916BE0D90",
-    "zip_sha256": null,
-    "next_ai_prompt_sha256": "84D329CC20A9C88F5427E0DC280F71D48828E617599DAF3342BA737F1A65CE1A",
-    "state_digest": "73F22051E79F6C3916B3D1FA95E8B42FA21B1833E93F5853D6D98FBE25AA8202"
-  },
-  "next_first_action": "Verify the immutable manifest and prompt SHA-256, then apply the v4.2 bootstrap protocol to the target project.",
-  "requirements": {
-    "github_auth_required": false,
-    "user_action_required": false
-  }
-}
