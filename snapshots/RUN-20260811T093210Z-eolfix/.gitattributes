@@ -1,0 +1,8 @@
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
