@@ -1,0 +1,44 @@
+{
+  "schema": "ai-handoff-snapshot/v1",
+  "project_id": "universal-ai-handoff-protocol",
+  "project_name": "Universal AI PC Lossless Handoff Protocol",
+  "run_id": "RUN-20260811T094043Z-eolself",
+  "created_at_utc": "2026-08-11T09:40:43Z",
+  "visibility": "public",
+  "artifacts": [
+    {
+      "path": "범용_AI_PC_무손실_지속개발_인계_프롬프트_v4.3.txt",
+      "role": "authoritative-protocol-and-next-ai-prompt",
+      "bytes": 65474,
+      "sha256": "BFC5ACB2BE2FF6C127B05DF12F921C2E3A7E2EB28F1E45C4FF265F360D9DFB0D"
+    },
+    {
+      "path": "README-FIRST.md",
+      "role": "human-and-ai-entrypoint",
+      "bytes": 609,
+      "sha256": "610B69E62695CD3A0E09A8E5619928BD6BB1679F82AE08C2670221884A95E51E"
+    },
+    {
+      "path": ".gitattributes",
+      "role": "cross-platform-checkout-byte-policy",
+      "bytes": 147,
+      "sha256": "2AEC367A8756344FE1EF13C990D453036D9A709691A142777FE02ADEB8978636"
+    }
+  ],
+  "verification": {
+    "major_sections": "0-27 sequential",
+    "completion_gates": "G01-G37 sequential",
+    "json_examples_parse": true,
+    "markdown_fences_balanced": true,
+    "required_latest_url_semantics": true,
+    "git_blob_raw_checkout_eol": "must match in fresh clone, including .gitattributes",
+    "secret_or_personal_data_scan": "required-before-publication"
+  },
+  "next_first_action": "Verify every artifact SHA-256, confirm self-normalizing .gitattributes in a fresh clone, then apply the v4.3 bootstrap protocol.",
+  "notes": [
+    "This snapshot commit is immutable once published.",
+    "Git blob/raw bytes are the integrity authority; checkout bytes are compared only after the same commit's attributes are applied.",
+    "The .gitattributes file explicitly fixes its own EOL to prevent Windows core.autocrlf byte drift.",
+    "The mutable HANDOFF-LATEST.json pointer is published in a later commit to avoid commit-SHA self-reference."
+  ]
+}
