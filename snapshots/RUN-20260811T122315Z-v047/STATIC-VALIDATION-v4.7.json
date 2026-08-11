@@ -1,0 +1,39 @@
+{
+  "schema": "prompt-static-validation/v47",
+  "prompt_sha256": "B576910210438062C3627FEC73A20BAFB31224ED50FC9FB3506C0EF2A991934A",
+  "prompt_bytes": 68660,
+  "checks_passed": 20,
+  "checks_total": 20,
+  "all_pass": true,
+  "json_blocks": "12/12",
+  "markers": "BEGIN=1,END=1",
+  "strict_utf8_bytes": {
+    "now": 792,
+    "begin": 1014,
+    "close_delta": 458,
+    "ledger_with_lf": 418,
+    "now_plus_ledger": 1210,
+    "instantiated_kernel": 2374
+  },
+  "caps_utf8_bytes": {
+    "now": 1024,
+    "begin": 1024,
+    "close_delta": 512,
+    "ledger_with_lf": 512,
+    "now_plus_ledger": 1536,
+    "instantiated_kernel": 4096
+  },
+  "schema_rejections": {
+    "quote": true,
+    "backslash": true,
+    "control": true,
+    "run_overflow": true,
+    "checkpoint_counter_overflow": true,
+    "checkpoint_epoch_overflow": true,
+    "fence_overflow": true,
+    "field_plus_one": true
+  },
+  "completion_gates": "G01-G43",
+  "private_locator_literals": 0,
+  "known_contradictions": 0
+}
