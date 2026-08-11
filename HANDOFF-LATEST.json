@@ -3,29 +3,49 @@
   "project_id": "universal-ai-handoff-protocol",
   "project_name": "Universal AI PC Lossless Handoff Protocol",
   "visibility": "public",
-  "updated_at_utc": "2026-08-11T09:45:05Z",
-  "run_id": "RUN-20260811T094505Z-api",
+  "updated_at_utc": "2026-08-11T10:07:16Z",
+  "run_id": "RUN-20260811T095811Z-dualdrive",
   "status": "ready",
   "source": {
     "repository": "https://github.com/hanksleekorea-boop/universal-ai-handoff",
     "branch": "ai-handoff",
-    "commit": "77c7647992780ed2a055062c3afc40a426c5d1ef",
-    "tree": "bd365e1c5725273100d3632e77631b57ad21b61b",
+    "commit": "d8b7a5e73ef9dac1bb079dae58db4817484ef234",
+    "tree": "774ace9660aecd7d9b6e2405f07bcc82d29bc2b4",
     "exact_local_state_included": true
   },
   "snapshot": {
-    "commit": "77c7647992780ed2a055062c3afc40a426c5d1ef",
-    "manifest_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/77c7647992780ed2a055062c3afc40a426c5d1ef/snapshots/RUN-20260811T094505Z-api/MANIFEST.json",
-    "next_ai_prompt_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/77c7647992780ed2a055062c3afc40a426c5d1ef/snapshots/RUN-20260811T094505Z-api/%EB%B2%94%EC%9A%A9_AI_PC_%EB%AC%B4%EC%86%90%EC%8B%A4_%EC%A7%80%EC%86%8D%EA%B0%9C%EB%B0%9C_%EC%9D%B8%EA%B3%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_v4.4.txt",
+    "commit": "d8b7a5e73ef9dac1bb079dae58db4817484ef234",
+    "manifest_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/d8b7a5e73ef9dac1bb079dae58db4817484ef234/snapshots/RUN-20260811T095811Z-dualdrive/MANIFEST.json",
+    "next_ai_prompt_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/d8b7a5e73ef9dac1bb079dae58db4817484ef234/snapshots/RUN-20260811T095811Z-dualdrive/%EB%B2%94%EC%9A%A9_AI_PC_%EB%AC%B4%EC%86%90%EC%8B%A4_%EC%A7%80%EC%86%8D%EA%B0%9C%EB%B0%9C_%EC%9D%B8%EA%B3%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_v4.5.txt",
     "release_url": null
   },
   "integrity": {
-    "manifest_sha256": "AE2F85F138F26B8C9F0A36C500B1C831F6DB9817D8CDFBD21EC9509A7EA0E4C9",
-    "zip_sha256": null,
-    "next_ai_prompt_sha256": "546CD06FAB75C1F631AB55637B9766198DF32337E78E296F436F52ADC99EB622",
-    "state_digest": "D5B0C33191F1BCC5DCDA63789745E5BB4FE3D62C7E68627A2BFD667BC0B06CB5"
+    "manifest_sha256": "7A65865BA1A4C6096C35D945D8E30B8C8FE2AC6CB3B6CE1B91DA3425A6D722EE",
+    "zip_sha256": "EC1CB4B149A050D9403C9322CC6B8AA8AC317A636F09CD785FCA3108EFC98437",
+    "next_ai_prompt_sha256": "194F37F9A24DAAE24E9F14794480833FD08C740F56C02BEB76F4AC44C2231C54",
+    "state_digest": "19F747BBF7D7B7F800C9FC31814E78B6C25E292F34680692410495BD08878C11"
   },
-  "next_first_action": "Decode the Contents API pointer, verify immutable hashes and EOL policy, then apply the v4.4 protocol.",
+  "recovery": {
+    "github_primary": true,
+    "google_drive": {
+      "copies_required": 2,
+      "copies_verified": 2,
+      "dual_drive_ready": true,
+      "account_labels": [
+        "drive-a",
+        "drive-b"
+      ],
+      "independent_owners_verified": true,
+      "folder_name": "UNIVERSAL_AI_HANDOFF_RECOVERY",
+      "zip_name": "universal-ai-handoff-drive-backup-RUN-20260811T095811Z-dualdrive.zip",
+      "zip_bytes": 28377,
+      "zip_sha256": "EC1CB4B149A050D9403C9322CC6B8AA8AC317A636F09CD785FCA3108EFC98437",
+      "verified_at_utc": "2026-08-11T10:07:16Z",
+      "locators_public": false,
+      "account_identity_included": false
+    }
+  },
+  "next_first_action": "Decode this Contents API pointer, verify immutable hashes and EOL policy, then apply the v4.5 protocol; use the private dual-Drive locators only if GitHub is unavailable.",
   "requirements": {
     "github_auth_required": false,
     "user_action_required": false
