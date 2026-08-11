@@ -3,29 +3,29 @@
   "project_id": "universal-ai-handoff-protocol",
   "project_name": "Universal AI PC Lossless Handoff Protocol",
   "visibility": "public",
-  "updated_at_utc": "2026-08-11T09:32:10Z",
-  "run_id": "RUN-20260811T093210Z-eolfix",
+  "updated_at_utc": "2026-08-11T09:40:43Z",
+  "run_id": "RUN-20260811T094043Z-eolself",
   "status": "ready",
   "source": {
     "repository": "https://github.com/hanksleekorea-boop/universal-ai-handoff",
     "branch": "ai-handoff",
-    "commit": "ca9081579c1d4155536bf5d45b197b79a4721ca2",
-    "tree": "983954b13c16b4bb0f8dd306262f8fe3643ae1d1",
+    "commit": "6aebe840c0e94e587a05364c22f4af398c1f7b35",
+    "tree": "c64199975a8f34134be65f4cea2c2f2b4a5d73c3",
     "exact_local_state_included": true
   },
   "snapshot": {
-    "commit": "ca9081579c1d4155536bf5d45b197b79a4721ca2",
-    "manifest_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/ca9081579c1d4155536bf5d45b197b79a4721ca2/snapshots/RUN-20260811T093210Z-eolfix/MANIFEST.json",
-    "next_ai_prompt_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/ca9081579c1d4155536bf5d45b197b79a4721ca2/snapshots/RUN-20260811T093210Z-eolfix/%EB%B2%94%EC%9A%A9_AI_PC_%EB%AC%B4%EC%86%90%EC%8B%A4_%EC%A7%80%EC%86%8D%EA%B0%9C%EB%B0%9C_%EC%9D%B8%EA%B3%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_v4.3.txt",
+    "commit": "6aebe840c0e94e587a05364c22f4af398c1f7b35",
+    "manifest_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/6aebe840c0e94e587a05364c22f4af398c1f7b35/snapshots/RUN-20260811T094043Z-eolself/MANIFEST.json",
+    "next_ai_prompt_raw_url": "https://raw.githubusercontent.com/hanksleekorea-boop/universal-ai-handoff/6aebe840c0e94e587a05364c22f4af398c1f7b35/snapshots/RUN-20260811T094043Z-eolself/%EB%B2%94%EC%9A%A9_AI_PC_%EB%AC%B4%EC%86%90%EC%8B%A4_%EC%A7%80%EC%86%8D%EA%B0%9C%EB%B0%9C_%EC%9D%B8%EA%B3%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_v4.3.txt",
     "release_url": null
   },
   "integrity": {
-    "manifest_sha256": "A1838F70908F3A1288C51D0FC9F1275CCD54A016A2605F3A3706BE2B43EBDE2B",
+    "manifest_sha256": "DAC3E14944FD1C456DD363BCEC42E711D2C48B9E107C0E179A016637307BAD57",
     "zip_sha256": null,
     "next_ai_prompt_sha256": "BFC5ACB2BE2FF6C127B05DF12F921C2E3A7E2EB28F1E45C4FF265F360D9DFB0D",
-    "state_digest": "17755D077D03580BEFEBAD04367AC4123D807E4797E46E07CA862616D75C1AC1"
+    "state_digest": "9E25F6F492E64B2BAC35F9F5A59978776626F849BF3A53E334AF066CCD41D05F"
   },
-  "next_first_action": "Verify immutable hashes and .gitattributes, then apply the v4.3 bootstrap protocol to the target project.",
+  "next_first_action": "Verify immutable hashes and self-normalizing .gitattributes, then apply the v4.3 bootstrap protocol.",
   "requirements": {
     "github_auth_required": false,
     "user_action_required": false
